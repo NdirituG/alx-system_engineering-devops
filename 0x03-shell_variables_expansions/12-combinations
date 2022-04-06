@@ -1,2 +1,2 @@
 #!/bin/bash
-print %sn {a..z} | grep -v "oo"
+print %sn {a..z}{a..z} | grep -v "oo"
